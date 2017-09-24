@@ -66,4 +66,4 @@ const _kahnSort = (graph, result, next) => {
 /**
  * Public API
  */
-export const kahnSort = graph => _kahnSort(normalize(graph), [], getNodesWithNoIncoming(graph))
+export default graph => _kahnSort(normalize(graph), [], getNodesWithNoIncoming(graph))

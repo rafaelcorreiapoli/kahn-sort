@@ -1,4 +1,4 @@
-import { normalize, kahnSort, getNodesWithNoIncoming } from './'
+import kahnSort, { normalize, getNodesWithNoIncoming } from './'
 
 const graph = {
   7: ['11', '8'],
